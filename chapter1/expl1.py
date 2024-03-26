@@ -24,9 +24,20 @@ print(message)
 message = 'The price of this {0:s} laptop is {1:d} USD and the exchange rate is {2:4.2f} USD to 1 EUR' .format('Apple', 1299, 1.2345)
 message = 'The price of this {} laptop is {} USD and the exchange rate is {} USD to 1 EUR' .format('Apple', 1299, 1.2345)
 
-myName = input('enter your name:')
-
- 
+myName = input('enter your name:') 
 
 for i in range (5):
  print (i)
+
+try:
+ answer = 12/3
+ print (answer)
+except:
+ print ("An error occured")
+
+ 
+def getGroceries():
+ print ('milk')
+ print ('butter')
+ print ()
+getGroceries()
