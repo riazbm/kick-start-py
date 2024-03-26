@@ -11,8 +11,8 @@ print("x =", x)
 print("y =", y)
 
 userAge = 36
-mobileNumber = 0789065756
+mobileNumber = 789065756
 
 userHeight = 12.3
 userWeight = 60.7
-userName = 'Soso'
+userName = 'Soso'.upper()
