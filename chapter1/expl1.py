@@ -25,3 +25,6 @@ message = 'The price of this {0:s} laptop is {1:d} USD and the exchange rate is 
 message = 'The price of this {} laptop is {} USD and the exchange rate is {} USD to 1 EUR' .format('Apple', 1299, 1.2345)
 
 myName = input('enter your name:')
+
+num1 = 12 if myInt==10 else 13
+print ("this is task A" if myInt==10 else "This is task B")
