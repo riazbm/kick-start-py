@@ -1,5 +1,5 @@
-print  ('hello')
-print ("world")
+print('hello')
+print("world")
 
 userAge = 0
 userAge, userName = 30, 'Pendo'
@@ -26,18 +26,18 @@ message = 'The price of this {} laptop is {} USD and the exchange rate is {} USD
 
 myName = input('enter your name:') 
 
-for i in range (5):
- print (i)
+for i in range(5):
+ print(i)
 
 try:
  answer = 12/3
- print (answer)
+ print(answer)
 except:
- print ("An error occured")
+ print("An error occured")
 
  
 def getGroceries():
- print ('milk')
- print ('butter')
- print ()
+ print('milk')
+ print('butter')
+ print()
 getGroceries()
