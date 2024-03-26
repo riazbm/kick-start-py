@@ -9,3 +9,6 @@ y = 6
 x = y
 print("x =", x)
 print("y =", y)
+
+userAge = 36
+mobileNumber = 0789065756
