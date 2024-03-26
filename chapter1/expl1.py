@@ -26,5 +26,7 @@ message = 'The price of this {} laptop is {} USD and the exchange rate is {} USD
 
 myName = input('enter your name:')
 
-num1 = 12 if myInt==10 else 13
-print ("this is task A" if myInt==10 else "This is task B")
+ 
+
+for i in range (5):
+ print (i)
